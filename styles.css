@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 60px;
+}
+
+#logo{
+    font-size: 60px;
+    margin-left: 40px;
+    font-weight:bolder;
+    font-style:oblique;
+}
+
+#logo span {
+    color: #D6000D;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.menu ul{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.login {
+    margin-left: 30px;
+    font-weight: bolder;
+    background-color: #D6000D;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* #Main */
+
+.budget{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.imgBackground{
+    width: 35%;
+}
+
+.imgBackground img{
+    max-width: 100%;
+    height: auto;
+}
+
+.mainText h1{
+    font-size: 70px;
+    color: #D6000D;
+}
+
+.mainText .btn-budget{
+    font-weight: bolder;
+    background-color: #D6000D;
+    color: aliceblue;
+    width: 300px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.content .content-list{
+    width: 50%;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.content .services-list{
+    list-style: none;
+}
+
+.content .services-list i{
+    margin-right: 30px;
+    color: #D6000D;
+}
+
+.content .content-img{
+    width: 50%;
+}
+
+.content .content-img img{
+    max-width: 80%;
+    height: auto;
+}
+
+.contact{
+    margin: 70px 0 0 150px;
+}
+
+.contact h2{
+    margin-bottom: 10px;
+}
+
+#contact-cel,
+.contact-btn{
+    height: 70px;
+    width: 300px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.contact input {  
+    background-color: rgb(230, 222, 222);
+    padding-left: 18px;
+    border-width: 0;
+}
+
+.contact
+.contact-btn{
+    background-color: #D6000D;
+    color: #fff;
+}
+
+.testimonial{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.testimonial-card{
+    background-color: rgb(230, 222, 222);
+    height: 200px;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.testimonial-card img{
+    background-color: #D6000D;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 15px;
+}
+
+.testimonial-card p{
+    width: 315px;
+    font-size: 16px;
+}
+
+.testimonial-card p, img{
+    margin-top: 50px;
+}
+
+.testimonial-card h2 {
+    margin-top: 10px;
+}
+
+
+.testimonial-card h2, h4{
+    margin-left: 150px;
+}
+
+.testimonial-card-p{
+    margin-left: 150px;
+}
+
+
+
+/* #Footer */
+.footer{
+    display: flex;
+    padding: 0px 100px;
+    height: 300px;
+    gap: 150px;
+    background-color: black;
+    margin-top: 70px;
+    color: white;
+    padding-top: 60px;
+}
+
+.footer-site h1{
+
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.footer-site {
+    margin: 10px 0;
+    
+}
+
+.footer-contact-email{
+    text-decoration: underline;
+}
+
+button{
+    cursor: pointer;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.fab{
+    color: red;
+    font-size: 40px;
+    padding: 10px;
+}
